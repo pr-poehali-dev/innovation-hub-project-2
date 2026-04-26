@@ -6,27 +6,27 @@ export function AboutTrainer() {
           {/* Image */}
           <div className="relative h-96 md:h-full min-h-96">
             <div className="absolute inset-0 bg-gradient-to-br from-accent/20 to-accent/5 rounded-2xl"></div>
-            <img src="/professional-trainer-headshot-smiling.jpg" alt="Тренер" className="w-full h-full object-cover rounded-2xl" />
+            <img src="/professional-trainer-headshot-smiling.jpg" alt="Главный бухгалтер" className="w-full h-full object-cover rounded-2xl" />
           </div>
 
           {/* Content */}
           <div className="flex flex-col gap-6">
             <div>
-              <p className="text-accent font-semibold text-sm uppercase tracking-wide">О наставнике</p>
+              <p className="text-accent font-semibold text-sm uppercase tracking-wide">О нас</p>
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-2 text-balance">
-                Ваш коуч по успеху в VA
+                Ваш надёжный бухгалтер
               </h2>
             </div>
 
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Более 10 лет опыта в виртуальном ассистировании и бизнес-операциях. Я помогла сотням
-              специалистов освоить навыки, необходимые для успеха в этой динамичной сфере.
+              Более 10 лет ведём бухгалтерский учёт для малого и среднего бизнеса. Работаем с ИП,
+              ООО, УСН, ОСНО и другими системами налогообложения.
             </p>
 
             <p className="text-muted-foreground leading-relaxed">
-              Моя экспертиза охватывает административный менеджмент, коммуникацию с клиентами, координацию
-              проектов и владение цифровыми инструментами. Опыт работы с компаниями Fortune 500 и стартапами
-              дает мне уникальное понимание того, что действительно ценят работодатели.
+              Наша команда специализируется на комплексном бухгалтерском обслуживании: от первичной
+              документации до представления интересов в налоговых органах. Мы следим за изменениями
+              в законодательстве, чтобы вы всегда были в безопасности.
             </p>
 
             <div className="space-y-4 pt-4">
@@ -35,8 +35,8 @@ export function AboutTrainer() {
                   <span className="text-accent text-sm">&#10003;</span>
                 </div>
                 <div>
-                  <p className="font-semibold text-foreground">Сертифицированный коуч VA</p>
-                  <p className="text-sm text-muted-foreground">Признание лидерами отрасли</p>
+                  <p className="font-semibold text-foreground">Аттестованные специалисты</p>
+                  <p className="text-sm text-muted-foreground">Сертификаты ИПБ России</p>
                 </div>
               </div>
               <div className="flex gap-3">
@@ -44,8 +44,8 @@ export function AboutTrainer() {
                   <span className="text-accent text-sm">&#10003;</span>
                 </div>
                 <div>
-                  <p className="font-semibold text-foreground">500+ выпускников</p>
-                  <p className="text-sm text-muted-foreground">95% карьерного роста</p>
+                  <p className="font-semibold text-foreground">500+ клиентов</p>
+                  <p className="text-sm text-muted-foreground">Ни одной штрафной санкции по нашей вине</p>
                 </div>
               </div>
               <div className="flex gap-3">
@@ -53,8 +53,8 @@ export function AboutTrainer() {
                   <span className="text-accent text-sm">&#10003;</span>
                 </div>
                 <div>
-                  <p className="font-semibold text-foreground">Персональный подход</p>
-                  <p className="text-sm text-muted-foreground">Адаптация под ваши цели</p>
+                  <p className="font-semibold text-foreground">Финансовая ответственность</p>
+                  <p className="text-sm text-muted-foreground">Возмещаем ущерб при ошибке в учёте</p>
                 </div>
               </div>
             </div>

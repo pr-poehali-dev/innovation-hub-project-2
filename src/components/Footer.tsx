@@ -6,11 +6,11 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <div className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center">
-                <span className="text-accent-foreground font-bold">E</span>
+                <span className="text-accent-foreground font-bold">Б</span>
               </div>
-              <span className="font-semibold">Elevate VA Academy</span>
+              <span className="font-semibold">БухгалтерПро</span>
             </div>
-            <p className="text-sm text-background/70">Персональное обучение 1-на-1 для будущих виртуальных ассистентов.</p>
+            <p className="text-sm text-background/70">Профессиональное бухгалтерское обслуживание для малого и среднего бизнеса.</p>
           </div>
           <div>
             <h4 className="font-semibold mb-4">Навигация</h4>
@@ -22,12 +22,12 @@ export function Footer() {
               </li>
               <li>
                 <a href="#benefits" className="hover:text-background transition">
-                  Преимущества
+                  Услуги
                 </a>
               </li>
               <li>
                 <a href="#booking" className="hover:text-background transition">
-                  Записаться
+                  Оставить заявку
                 </a>
               </li>
               <li>
@@ -41,12 +41,12 @@ export function Footer() {
             <h4 className="font-semibold mb-4">Поддержка</h4>
             <ul className="space-y-2 text-sm text-background/70">
               <li>
-                <a href="#" className="hover:text-background transition">
+                <a href="#booking" className="hover:text-background transition">
                   Контакты
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-background transition">
+                <a href="#faq" className="hover:text-background transition">
                   Вопросы
                 </a>
               </li>
@@ -57,7 +57,7 @@ export function Footer() {
               </li>
               <li>
                 <a href="#" className="hover:text-background transition">
-                  Условия
+                  Условия работы
                 </a>
               </li>
             </ul>
@@ -67,17 +67,17 @@ export function Footer() {
             <ul className="space-y-2 text-sm text-background/70">
               <li>
                 <a href="#" className="hover:text-background transition">
-                  LinkedIn
+                  ВКонтакте
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-background transition">
-                  Twitter
+                  Telegram
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-background transition">
-                  Instagram
+                  WhatsApp
                 </a>
               </li>
               <li>
@@ -89,7 +89,7 @@ export function Footer() {
           </div>
         </div>
         <div className="border-t border-background/20 pt-8 text-center text-sm text-background/70">
-          <p>&copy; 2025 Elevate VA Academy. Все права защищены.</p>
+          <p>&copy; 2026 БухгалтерПро. Все права защищены.</p>
         </div>
       </div>
     </footer>
